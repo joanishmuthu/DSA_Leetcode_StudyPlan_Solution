@@ -13,13 +13,13 @@ public class LinkedListCycle {
 	
 	public static void main(String[] args) {
 		ListNode root = new ListNode(3);
-//		ListNode a = new ListNode(2);
-//		ListNode b = new ListNode(0);
-//		ListNode c = new ListNode(-4);
-//		root.next = a;
-//		a.next = root;
-//		b.next = c;
-//		c.next = a;
+		ListNode a = new ListNode(2);
+		ListNode b = new ListNode(0);
+		ListNode c = new ListNode(-4);
+		root.next = a;
+		a.next = root;
+		b.next = c;
+		c.next = a;
 		System.out.println(hasCycle(root));
 	}
 
